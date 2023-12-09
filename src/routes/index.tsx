@@ -8,7 +8,6 @@ export default component$(() => {
       <button
         onKeyDown$={$sync((e: KeyboardEvent) => {
           if (e.key === "ArrowDown") {
-            console.log("synchronous!");
             e.preventDefault();
           }
         })}
